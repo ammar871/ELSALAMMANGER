@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+
+    android:orientation="vertical">
+
+
+    <ImageView
+
+        android:id="@+id/image_author"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:src="@drawable/logo"
+
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+
+            android:layout_weight="1">
+
+            <TextView
+
+                android:id="@+id/homee"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bt_design1"
+
+
+                android:drawableRight="@drawable/ic_baseline_send_24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="ارسال اشعار"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_design1">
+
+
+            <TextView
+                android:id="@+id/notify"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_design1"
+                android:drawableRight="@drawable/ic_baseline_notifications_none_24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="الاشعارات"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_design1">
+
+            <TextView
+                android:id="@+id/news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_design1"
+                android:drawableRight="@drawable/ic_news24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="ارسال خبر"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

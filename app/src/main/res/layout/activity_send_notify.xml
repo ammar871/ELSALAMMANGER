@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".addProducts.AddProdctsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="اضافة اشعار لمنتج"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/edname_prodcut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="الاسم"
+                android:inputType="text"
+                android:textSize="25dp" />
+            <EditText
+                android:id="@+id/edshortDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="وصف قصير "
+                android:inputType="text"
+                android:textSize="25dp" />
+            <EditText
+                android:id="@+id/ed_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="رقم الهاتف  "
+                android:inputType="number"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/edpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="صفحة الفيس "
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/eddesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="التفاصيل"
+                android:inputType="text"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/edaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="عنوان المحل "
+                android:textSize="25dp" />
+
+
+
+
+
+                <ImageView
+                     android:id="@+id/imag_notiy"
+                    android:layout_width="150dp"
+
+                    android:layout_height="150dp"
+
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_add_photo_alternate_24"
+                    android:text="Select Image"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/btn_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="ارسال "
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#fff" />
+
+
+
+
+            </LinearLayout>
+
+
+
+    </ScrollView>
+</layout>

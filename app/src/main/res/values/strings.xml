@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EL SALAM MANGER</string>
+
+    <string-array name="numbers">
+        <item>اختـار النــوع</item>
+        <item>أخبار</item>
+        <item>عروض</item>
+
+
+    </string-array>
+</resources>

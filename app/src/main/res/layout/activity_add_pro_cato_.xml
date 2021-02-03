@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".addProducts.AddProdctsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="اضافة منتج جديد"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/edname_prodcut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="الاسم"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/edshortDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:hint="وصف قصير "
+                android:textSize="25dp" />
+
+
+            <EditText
+                android:id="@+id/ed_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:hint="وصف كامل"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ed_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="السعر  "
+                android:inputType="numberDecimal"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ed_phonDelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="رقم التواصل "
+                android:textSize="25dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/ed_nameDelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="اسم المحل"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ed_locationDelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="موقع المحل"
+                android:textSize="25dp" />
+            <RadioButton
+
+                android:id="@+id/shipToAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="الحصول علي موقعي " />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="دليفرى "
+                android:padding="5dp"
+                android:layout_gravity="right"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+            <ImageView
+                android:id="@+id/image_show"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_baseline_add_photo_alternate_24"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="اتمام العملية"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_upload"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#777"
+                    android:text="تحميل الصورة"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_addandnoty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="اتمام العملية مع الاعلان "
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

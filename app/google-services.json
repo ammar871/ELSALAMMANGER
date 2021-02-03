@@ -1,42 +1,79 @@
 {
   "project_info": {
-    "project_number": "62251026784",
-    "firebase_url": "https://el-salam-city.firebaseio.com",
-    "project_id": "el-salam-city",
-    "storage_bucket": "el-salam-city.appspot.com"
+    "project_number": "811963461785",
+    "firebase_url": "https://bardis-19d46.firebaseio.com",
+    "project_id": "bardis-19d46",
+    "storage_bucket": "bardis-19d46.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:62251026784:android:b0fe6da209c0b53e29b605",
+        "mobilesdk_app_id": "1:811963461785:android:caa37a05790c49cc414808",
         "android_client_info": {
-          "package_name": "com.elsalmcity.elsalammanger"
+          "package_name": "com.bardisammar.elsalamcity"
         }
       },
       "oauth_client": [
         {
-          "client_id": "62251026784-tluf4aaivihkm52v1mg03vult12uaf5i.apps.googleusercontent.com",
+          "client_id": "811963461785-5tm28ovo54m13cjro7s2p6ef1f7qjupc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.elsalmcity.elsalammanger",
-            "certificate_hash": "a3203b100183f6af8bc0a7fbd028a8a99eba932b"
+            "package_name": "com.bardisammar.elsalamcity",
+            "certificate_hash": "79097bd687e683df5837fba4e04ed43765abf8e9"
           }
         },
         {
-          "client_id": "62251026784-ep12tisjue4efd7es7tttg33b5tcna5p.apps.googleusercontent.com",
+          "client_id": "811963461785-acalbtlrct8n0m8ctsqmfkoij8kg2oct.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCf7b_9RikLq_bF2eWIEJQWQiLGcgTtK1s"
+          "current_key": "AIzaSyBlwyRZh1zxevGD13peMpvl6iOb9mMbFAo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "62251026784-ep12tisjue4efd7es7tttg33b5tcna5p.apps.googleusercontent.com",
+              "client_id": "811963461785-acalbtlrct8n0m8ctsqmfkoij8kg2oct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811963461785:android:93a245f7541bc7c2414808",
+        "android_client_info": {
+          "package_name": "com.mangerbaedis.elsalammanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811963461785-0d689pp27j6j3ifep0sjhbrbjtujosnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mangerbaedis.elsalammanger",
+            "certificate_hash": "79097bd687e683df5837fba4e04ed43765abf8e9"
+          }
+        },
+        {
+          "client_id": "811963461785-acalbtlrct8n0m8ctsqmfkoij8kg2oct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlwyRZh1zxevGD13peMpvl6iOb9mMbFAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811963461785-acalbtlrct8n0m8ctsqmfkoij8kg2oct.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

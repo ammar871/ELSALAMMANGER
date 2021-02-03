@@ -40,6 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+
                 android:hint="وصف قصير "
                 android:textSize="25dp" />
             <EditText
@@ -47,6 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:inputType="number"
                 android:hint="رقم الهاتف  "
                 android:textSize="25dp" />
 
@@ -73,6 +75,14 @@
                 android:layout_margin="10dp"
                 android:hint="عنوان المحل "
                 android:textSize="25dp" />
+
+            <RadioButton
+
+                android:id="@+id/shipToAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="الحصول علي موقعي " />
 
             <LinearLayout
                 android:id="@+id/liner_Select_image"
@@ -139,7 +149,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/colorPrimary"
-                    android:text="Add"
+                    android:text="اتمام العملية"
+                    android:textStyle="bold"
                     android:layout_margin="5dp"
                     android:textColor="#fff" />
 
@@ -150,7 +161,8 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="#777"
-                    android:text="upload"
+                    android:textStyle="bold"
+                    android:text="تحميل الصور"
                     android:textColor="@color/white" />
 
 

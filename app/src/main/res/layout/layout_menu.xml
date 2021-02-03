@@ -14,7 +14,7 @@
         android:layout_height="120dp"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logoonc"
 
 
         />
@@ -27,7 +27,7 @@
         android:background="#fff"
         android:gravity="right"
         android:orientation="vertical"
-        android:weightSum="7">
+        android:weightSum="8">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingRight="16dp"
-                android:text="ارسال اشعار"
+                android:text="ارسال اشعار و اعلان محل"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
@@ -117,6 +117,111 @@
 
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_design1">
+
+            <TextView
+                android:id="@+id/add_adds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_design1"
+                android:drawableRight="@drawable/ic_baseline_add_box_24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="اضافة اعلان "
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_design1">
+
+            <TextView
+                android:id="@+id/page_products"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_design1"
+                android:drawableRight="@drawable/ic_baseline_add_shopping_cart_24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="صفحة المنتجات "
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_design1">
+
+            <TextView
+                android:id="@+id/page_orders"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_design1"
+                android:drawableRight="@drawable/ic_baseline_local_shipping_24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="الطلبات "
+                android:textColor="#000"
+                android:textSize="20sp"
+             />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_design1">
+
+            <TextView
+                android:id="@+id/id_log_out"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_design1"
+                android:drawableRight="@drawable/ic_baseline_exit_to_app_24"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:text="تسجيل الخروج "
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#95292827" />
+
+        </RelativeLayout>
 
 
 

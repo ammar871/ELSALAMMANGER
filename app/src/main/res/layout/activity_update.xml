@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="اضافة محل جديد"
+                android:text="تعديل البيانات "
                 android:textColor="@color/black"
                 android:textSize="30dp"
                 android:textStyle="italic"/>
@@ -47,6 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:inputType="number"
                 android:hint="رقم الهاتف  "
                 android:textSize="25dp" />
 
@@ -139,7 +140,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/colorPrimary"
-                    android:text="Add"
+                    android:text="اتمام العملية"
                     android:layout_margin="5dp"
                     android:textColor="#fff" />
 
@@ -150,7 +151,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="#777"
-                    android:text="upload"
+                    android:text="تحميل الصور"
                     android:textColor="@color/white" />
 
 

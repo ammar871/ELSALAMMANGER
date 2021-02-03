@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".auth.MainActivity">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_above="@id/liner"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logoonc" />
+
+        <Button
+            android:id="@+id/button_Sign"
+            android:layout_width="241dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/ic_launcher_background"
+            android:text="دخول "
+            android:textAllCaps="false"
+            android:textColor="#F9F9FA"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/liner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10sp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="20dp"
+
+                >
+
+                <EditText
+                    android:id="@+id/editTextemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|start"
+                    android:hint="البريد الالكتـــــرونى"
+                    android:padding="8dp"
+                    android:paddingRight="10dp"
+
+                    android:textColor="@color/colorPrimary"
+
+                    android:textColorHint="@color/backround" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="20dp">
+
+                <com.xwray.passwordview.PasswordView
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center|start"
+                    android:hint="الرقم الســـــرى"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/backround"
+                    android:textColorHint="@color/backround"
+                    app:useStrikeThrough="true" />
+            </androidx.cardview.widget.CardView>
+
+            <CheckBox
+                android:id="@+id/remmber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="10sp"
+                android:text="تذكرنى "
+                android:textColor="@color/backround"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

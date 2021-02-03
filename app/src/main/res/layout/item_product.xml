@@ -16,21 +16,23 @@
 
 
 
-        <ImageView
-            android:id="@+id/imageView"
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
 
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_alignParentRight="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:scaleType="fitXY"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            android:id="@+id/imageView"
+            app:civ_border_width="2dp"
+            android:layout_alignParentRight="true"
+            app:civ_border_color="#FF000000"/>
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-
+            android:layout_marginLeft="10dp"
+android:layout_marginTop="30dp"
             android:layout_marginRight="6dp"
             android:layout_toLeftOf="@id/imageView"
             android:gravity="right"
